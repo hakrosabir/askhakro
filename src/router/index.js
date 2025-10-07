@@ -6,9 +6,9 @@ import Chat1View from '../views/Chat1View.vue'
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: '/mychat',
+    name: 'mychat',
+    component: Chat1View
   },
 
   {
