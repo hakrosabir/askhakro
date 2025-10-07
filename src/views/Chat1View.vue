@@ -1,4 +1,9 @@
+
+
+
 <template>
+
+
   <div class="ask-hakro-pro" :class="{ 'theme-dark': isDarkMode }">
     <!-- Sidebar -->
     <aside class="sidebar" :class="{ 'collapsed': !sidebarOpen }">
@@ -111,6 +116,8 @@
           </div>
         </transition-group>
       </div>
+
+      
 
       <!-- Input -->
       <div class="chat-input-area">
