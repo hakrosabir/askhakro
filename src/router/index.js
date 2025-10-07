@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import SignUp from '@/components/SignUp.vue'
 import SignUpView from '@/views/SignUpView.vue'
+import Chat1View from '../views/Chat1View.vue'
 
 const routes = [
   {
